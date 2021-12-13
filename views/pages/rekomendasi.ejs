@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <title>Rekomendasi Cafe</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container">
+      <ul class="navbar-nav ml-1 mr-1 nav-fill">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="/" style="margin-left: 10px; margin-right: 10px;">Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="/cafejakarta" style="margin-left: 10px; margin-right: 10px;">Cafe di
+            Jakarta</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="/rekomendasi" style="margin-left: 10px; margin-right: 10px;">Rekomendasi
+            Cafe</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="/bantuan" style="margin-left: 10px; margin-right: 10px;">Bantuan</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <h1 style="text-align: center; margin-top: 20px; margin-bottom: 20px;"> REKOMENDASI CAFE </h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs">
+        <div class="dropdown">
+          <b><Label>Wifi: </Label></b>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Wifi
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tersedia</a>
+            <a class="dropdown-item" href="#">Tidak tersedia</a>
+          </div>
+        </div>
+        <br>
+        <div class="dropdown">
+          <b><Label>Smooking Area: </Label></b>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Smooking area
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tersedia</a>
+            <a class="dropdown-item" href="#">Tidak tersedia</a>
+          </div>
+        </div>
+        <br>
+        <div class="dropdown">
+          <b><Label>Indoor Seating: </Label></b>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Indoor seating
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tersedia</a>
+            <a class="dropdown-item" href="#">Tidak tersedia</a>
+          </div>
+        </div>
+        <br>
+        <div class="dropdown">
+          <b><Label>Outdoor Seating: </Label></b>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Outdoor seating
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tersedia</a>
+            <a class="dropdown-item" href="#">Tidak tersedia</a>
+          </div>
+        </div>
+        <br>
+        <div class="dropdown">
+          <b><Label>Free Parking: </Label></b>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Free parking
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tersedia</a>
+            <a class="dropdown-item" href="#">Tidak tersedia</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <b><Label>Valet Parking: </Label></b>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Valet parking
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tersedia</a>
+            <a class="dropdown-item" href="#">Tidak tersedia</a>
+          </div>
+        </div>
+        <br>
+        <div class="dropdown">
+          <b><Label>Takeaway: </Label></b>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Takeaway
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tersedia</a>
+            <a class="dropdown-item" href="#">Tidak tersedia</a>
+          </div>
+        </div>
+        <br>
+        <div class="dropdown">
+          <b><Label>Home Delivery: </Label></b>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Home delivery
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tersedia</a>
+            <a class="dropdown-item" href="#">Tidak tersedia</a>
+          </div>
+        </div>
+        <br>
+        <div class="dropdown">
+          <b><Label>Table Booking: </Label></b>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Table booking
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Tersedia</a>
+            <a class="dropdown-item" href="#">Tidak tersedia</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="media">
+          <img class="mr-3" src="/cafe/images/Jakarta-Barat/115-coffee/00bfe872b17e5cc9ecace58e0fdf09a5_1564732395.jpg" 
+          alt="Generic placeholder image" style="width: 5cm;height: 5cm;">
+          <div class="media-body">
+            <h5 class="mt-0">Media heading</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </div>
+        
+          
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
